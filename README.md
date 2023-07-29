@@ -1,6 +1,3 @@
-# neocities
-ALL The Neocities sites I've worked on!
-## list
-- aleph's Website ([code](alephs_website) | [site](https://alephd.neocities.org))
-- [berjones] ([code](berayah) | [site](https://berjones.neocities.org/))
-- AlphNation ([code](alphnation) | [site](https://alphnation.neocities.org/))
+Just my Neocities site.
+
+[Mirrored to Github Pages for your Internet Explorer browsing experience!](http://aleph.is-local.org/)
