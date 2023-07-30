@@ -1,8 +1,1 @@
-User-agent: Googlebot
-Disallow: /404.html
-Disallow: /enter.html
-Disallow: /nogoogle/
-User-agent: *
-Allow: /
-
 Sitemap: https://aleph.is-a.dev/sitemap.xml
