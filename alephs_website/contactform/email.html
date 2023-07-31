@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Email me!!! Or someone else.</title>
+    <script>
+  function processForm(){
+  var select  = document.getElementsByTagName("select");
+  var inputs  = document.getElementsByTagName("input");
+  var message = document.getElementsByTagName("textarea");
+
+  var str = select[0].name + ":" + select[0].value;     // mailto:[email address]
+  str += "?" + inputs[1].name + "=" + inputs[1].value;  // ?subject=[subject]
+
+  str += "&" + message[0].name + "=" + message[0].value;// &body=[body]
+  str += str.replace(/\+/ig,"%20");                     // url encode space char '+'
+
+  location.href=str;                                    // invoke mailto
+
+}
+</script>
+  </head>
+  <body>
+    <form>
+    Who? <select name="dog-names" id="dog-names"> 
+        <option value="aleph@aleph.is-local.org">Aleph</option> 
+        <option value="berayah@aleph.is-local.org">Berayah</option> 
+    </select><br>
+    Subject <input name="subject" type="text"><br>
+    Body <textarea name="body"></textarea><br>
+    <input type="button" onclick="processForm()">
+    </form>
+  </body>
+</html>
