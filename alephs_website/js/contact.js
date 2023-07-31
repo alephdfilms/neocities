@@ -1,4 +1,3 @@
-let contactbox = document.getElementById("contactbox");
 function emailform(){
 console.log("email form pulled up.");
 window.open(
