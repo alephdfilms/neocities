@@ -2,9 +2,19 @@
 <html>
   <head>
     <title>Email me!!! Or someone else.</title>
-    <script>
+  </head>
+  <body>
+    <form>
+    Who? <select name="emails" id="emails" onchange="javascript:handleSelect(this)"> 
+        <option value="aleph@aleph.is-local.org">Aleph</option> 
+        <option value="berayah@aleph.is-local.org">Berayah</option> 
+    </select><br>
+    Subject <input name="subject" type="text"><br>
+    Body <textarea name="body"></textarea><br>
+    <button onclick="processForm()">Submit</button>
+    </form>
+    <script type="text/javascript">
   function processForm(){
-  var select  = document.getElementsByTagName("select");
   var inputs  = document.getElementsByTagName("input");
   var message = document.getElementsByTagName("textarea");
 
@@ -16,18 +26,11 @@
 
   location.href=str;                                    // invoke mailto
 
-}
-</script>
-  </head>
-  <body>
-    <form>
-    Who? <select name="dog-names" id="dog-names"> 
-        <option value="aleph@aleph.is-local.org">Aleph</option> 
-        <option value="berayah@aleph.is-local.org">Berayah</option> 
-    </select><br>
-    Subject <input name="subject" type="text"><br>
-    Body <textarea name="body"></textarea><br>
-    <button onclick="processForm()">Submit</button>
-    </form>
+  }
+  function handleSelect(elm)
+  {
+     var select = elm.value;
+  }
+  </script>
   </body>
 </html>
