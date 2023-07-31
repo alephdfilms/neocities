@@ -5,32 +5,17 @@
   </head>
   <body>
     <form>
-    Who? <select name="emails" id="emails" onchange="javascript:handleSelect(this)"> 
+    Who? <select name="emails" id="emails" onchange="var who = this.value;"> 
         <option value="aleph@aleph.is-local.org">Aleph</option> 
         <option value="berayah@aleph.is-local.org">Berayah</option> 
     </select><br>
-    Subject <input name="subject" type="text"><br>
-    Body <textarea name="body"></textarea><br>
-    <button onclick="processForm()">Submit</button>
+    Subject <input onchange="var subject = this.value;" name="subject" type="text"><br>
+    Body <textarea name="body" onchange="var bodyemail = this.value;"></textarea><br>
+    <button onclick="send()">Submit</button>
     </form>
     <script type="text/javascript">
-  function processForm(){
-  var inputs  = document.getElementsByTagName("input");
-  var message = document.getElementsByTagName("textarea");
-
-  var str = select[0].name + ":" + select[0].value;     // mailto:[email address]
-  str += "?" + inputs[1].name + "=" + inputs[1].value;  // ?subject=[subject]
-
-  str += "&" + message[0].name + "=" + message[0].value;// &body=[body]
-  str += str.replace(/\+/ig,"%20");                     // url encode space char '+'
-
-  location.href=str;                                    // invoke mailto
-
-  }
-  function handleSelect(elm)
-  {
-     var select = elm.value;
-  }
+  function send(){
+  window.location = "mailto:" + who + "?subject=" + subject + "&body=" + bodyemail;
   </script>
   </body>
 </html>
