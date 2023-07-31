@@ -5,16 +5,19 @@
   </head>
   <body>
     <form>
-    Who? <select name="emails" id="emails" onchange="var who = this.value;"> 
+    Who? <select name="emails" id="emails" > 
         <option value="aleph@aleph.is-local.org">Aleph</option> 
         <option value="berayah@aleph.is-local.org">Berayah</option> 
     </select><br>
-    Subject <input onchange="var subject = this.value;" name="subject" type="text"><br>
-    Body <textarea name="body" onchange="var bodyemail = this.value;"></textarea><br>
+    Subject <input name="subject" id="subject" type="text"><br>
+    Body <textarea name="body" id="bodyemail"></textarea><br>
     <button onclick="send()">Submit</button>
     </form>
     <script type="text/javascript">
   function send(){
+  var subject = document.getElementById("subject").value;
+  var bodyemail = document.getElementById("bodyemail").value;
+  var who = document.getElementById("emails").value;
   window.location = "mailto:" + who + "?subject=" + subject + "&body=" + bodyemail;
   }
   </script>
