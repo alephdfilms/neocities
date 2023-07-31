@@ -18,7 +18,8 @@
   var subject = document.getElementById("subject").value;
   var bodyemail = document.getElementById("bodyemail").value;
   var who = document.getElementById("emails").value;
-  window.location = "mailto:" + who + "?subject=" + subject + "&body=" + bodyemail;
+  var link = "mailto:" + who + "?subject=" + subject + "&body=" + bodyemail;
+  window.open(link);
   }
   </script>
   </body>
