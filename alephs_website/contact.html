@@ -9,16 +9,6 @@
 <!-- The favicon MUST be in the root for it to pop up everywhere. --> 
 <link rel="shortcut icon" href="/favicon.ico">
 <title>aleph's website.</title>
-<script type="text/javascript">
-function checkvid(){
-	if document.cookie !="viewedvideo=true" {
-	}
-	else {
-	window.location.replace("enter.html");
-	}
-}
-checkvid();
-</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -30,9 +20,8 @@ checkvid();
 <hr>
 <!--BEWARE!! INSANE CONTENT.-->
 <div class="content">
-<p>Click any of the buttons below to pull up a form.</p>
-<p><button onClick="emailform();">Email Form</button></p>	
-</p>
+<p>Click any of the buttons below to pull up a form to contact me or anyone involved with this site.</p>
+<p><button onClick="window.open('contactform/email.html', 'popUpWindow', 'height=480,width=360,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">Email Form</button></p>	
 </div>
 <!--`END INSANE CONTENT.-->
 <hr>
@@ -47,7 +36,6 @@ checkvid();
     <!--END FOOTER-->
     <script type="text/javascript" src="/js/server.js">
     </script>
-    <script type="text/javascript" src="js/contact.js"></script>
 </p>
 </div>
 </body>
