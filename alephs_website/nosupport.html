@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your browser is unsupported!</title>
+  </head>
+  <body>
+    <img src="images/logo_wordmark/logo.gif" align="right" alt="Aleph's Website">
+    <p>
+      <h1>Browser unsupported!</h1>
+      Your browser does not support the following:<br>
+      <noframes>&lt;frameset&gt; - Usually kept for compatibility reasons, however, this website uses frames so that the webmaster can add links and stuff without editing every single other page.</noframes>
+      <noscript>JavaScript - Unlike other sites that use JavaScript <em>frameworks</em>, this site utilies plain JavaScript for the best experience.</noscript>
+      <script type="text/javascript">
+        var hasFlash = false;
+try {
+  var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+  if (fo) {
+    hasFlash = "Flash is not installed.";
+  }
+} catch (e) {
+  if (navigator.mimeTypes
+        && navigator.mimeTypes['application/x-shockwave-flash'] != undefined
+        && navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin) {
+    hasFlash = "Flash is installed.";
+  }
+}
+        document.write(hasFlash);</script> However, if you use the latest version of a Chromium or Firefox based browser, such as Brave or Waterfox, we'd suggest that you enable Ruffle by clicking any link that says "<a href="javascript:var url = '//unpkg.com/@ruffle-rs/ruffle'; var script = win.document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle</a>".<br>
+      You can also try installing the Ruffle extension at <a href="https://www.ruffle.rs/">www.ruffle.rs</a>.
+    </p>
+  </body>
+</html>
