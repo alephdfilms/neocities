@@ -9,9 +9,6 @@
 <noscript>
     <meta http-equiv="refresh" content="0,nosupport.html">
 </noscript>
-<noframes>
-    <meta http-equiv="refresh" content="0,nosupport.html">
-</noframes>
 <!-- The favicon MUST be in the root for it to pop up everywhere. --> 
 <link rel="shortcut icon" href="/favicon.ico">
 <title>aleph's website.</title>
@@ -22,11 +19,14 @@
     }
 </style>
 </head>
-<body>
+<!--<body>-->
 <frameset rows = "10%,80%,10%">
       <frame name = "top" src = "frames/header.html" />
       <frame name = "main" src = "frames/home.html" />
       <frame name = "bottom" src = "frames/footer.html" />
+    <noframes>
+    <script type="text/javascript">window.location("/nosupport.html");</script>
+    </noframes>
 </frameset>
-</body>
+<!--</body>-->
 </html>
