@@ -8,6 +8,14 @@
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
 <!-- The favicon MUST be in the root for it to pop up everywhere. --> 
 <link rel="shortcut icon" href="/favicon.ico">
+<script type="text/javascript">
+ function mailIt() {
+ var elms=document.forms[0].elements;
+ var q='Dear '+elms.name.value+'&#37;0AYour '+elms.comment.value+' in bla bla ...';
+ document.forms[0].action='mailto:' + elms.who.value + '?cc='+elms.email.value+'&subject=Feedback form&body=' + q;
+ document.forms[0].submit();
+ }
+</script>
 <title>aleph's website. home</title>
 <style>
   html, body {
@@ -17,7 +25,18 @@
 </style>
 </head>
 <body>
-<p>Click any of the buttons below to pull up a form to contact me or anyone involved with this site.</p>
-<p><button onClick="window.open('contactform/email.html', 'popUpWindow', 'height=480,width=360,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">Email Form</button></p>	
+<form action="#" method="post" onsubmit="mailIt(); return false;" enctype="text/plain">
+ <div>
+ <label>Your name: <input type="text" name="name"></label><br>
+ <label>Who to contact: <select name="who"> 
+        <option value="aleph@aleph.is-local.org">Aleph</option> 
+        <option value="berayah@aleph.is-local.org">Berayah</option> 
+        <option value="aleph@aleph.is-local.org,cc=berayah@aleph.is-local.org">Both Aleph and Berayah</option> 
+    </select></label><br>
+ <label>Your email: <input type="text" name="email"></label>
+ <label>Your comment: <textarea name="comment"></textarea></label>
+ <button type="submit">submit</button>
+ </div>
+</form>
 </body>
 </html>
