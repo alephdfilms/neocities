@@ -11,7 +11,7 @@
   <script type="text/javascript">
   function mailIt() {
   var elms=document.forms[0].elements;
-  var q='Dear '+elms.name.value+'&#37;0AYour '+elms.comment.value+' in bla bla ...';
+  var q=elms.comment.value;
   window.open('mailto:' + elms.who.value + '?cc='+elms.email.value+'&subject=Feedback form&body=' + q);
   }
   </script>
