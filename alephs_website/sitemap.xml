@@ -5,19 +5,11 @@
 <loc>http://aleph.is-local.org/</loc>
 <lastmod>2023-07-21</lastmod>
 </url>
-<url>
-<loc>https://aleph.is-local.org/artwork/</loc>
-<lastmod>2023-07-24</lastmod>
-</url>
 <!--End HTTP mirror urls-->
 <!--Start Neocities urls-->
 <url>
 <loc>https://alephd.neocities.org/</loc>
 <lastmod>2023-07-21</lastmod>
-</url>
-<url>
-<loc>https://alephd.neocities.org/artwork/</loc>
-<lastmod>2023-07-24</lastmod>
 </url>
 <!--End Neocities urls-->
 </urlset>
