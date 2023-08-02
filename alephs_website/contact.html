@@ -1,42 +1,41 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Explore Aleph's Website for a delightful collection of cartoons, interactive games, captivating art, and a stunning portfolio.">
-<meta name="keywords" content="alephdfilms, Aleph Diallo, alephd.neocities.org, aleph.is-local.org, stickman, flash, comics, animation, art, Aleph's Website, alephd, Hello Google">
-<meta name="author" content="Aleph Diallo">
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
-<!-- The favicon MUST be in the root for it to pop up everywhere. --> 
-<link rel="shortcut icon" href="/favicon.ico">
-<script type="text/javascript">
- function mailIt() {
- var elms=document.forms[0].elements;
- var q='Dear '+elms.name.value+'&#37;0AYour '+elms.comment.value+' in bla bla ...';
- document.forms[0].action='mailto:' + elms.who.value + '?cc='+elms.email.value+'&subject=Feedback form&body=' + q;
- document.forms[0].submit();
- }
-</script>
-<title>aleph's website. home</title>
-<style>
-  html, body {
-    background: #d0d0d0;
-    color: #000;
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Aleph's Website for a delightful collection of cartoons, interactive games, captivating art, and a stunning portfolio.">
+  <meta name="keywords" content="alephdfilms, Aleph Diallo, alephd.neocities.org, aleph.is-local.org, stickman, flash, comics, animation, art, Aleph's Website, alephd, Hello Google">
+  <meta name="author" content="Aleph Diallo">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+  <!-- The favicon MUST be in the root for it to pop up everywhere. --> 
+  <link rel="shortcut icon" href="/favicon.ico">
+  <script type="text/javascript">
+  function mailIt() {
+  var elms=document.forms[0].elements;
+  var q='Dear '+elms.name.value+'&#37;0AYour '+elms.comment.value+' in bla bla ...';
+  window.open('mailto:' + elms.who.value + '?cc='+elms.email.value+'&subject=Feedback form&body=' + q);
   }
-</style>
-</head>
-<body>
-<form action="#" method="post" onsubmit="mailIt(); return false;" enctype="text/plain">
- <div>
- <label>Your name: <input type="text" name="name"></label><br>
- <label>Who to contact: <select name="who"> 
-        <option value="aleph@aleph.is-local.org">Aleph</option> 
-        <option value="berayah@aleph.is-local.org">Berayah</option> 
-        <option value="aleph@aleph.is-local.org,cc=berayah@aleph.is-local.org">Both Aleph and Berayah</option> 
-    </select></label><br>
- <label>Your email: <input type="text" name="email"></label>
- <label>Your comment: <textarea name="comment"></textarea></label>
- <button type="submit">submit</button>
- </div>
-</form>
-</body>
-</html>
+  </script>
+  <title>aleph's website. home</title>
+  <style>
+    html, body {
+      background: #d0d0d0;
+      color: #000;
+    }
+  </style>
+  </head>
+  <body>
+  <form action="#" method="post" onsubmit="mailIt(); return false;" enctype="text/plain">
+  <div>
+  <label>Your name: <input type="text" name="name"></label><br>
+  <label>Who to contact: <select name="who"> 
+          <option value="aleph@aleph.is-local.org">Aleph</option> 
+          <option value="berayah@aleph.is-local.org">Berayah</option> 
+          <option value="aleph@aleph.is-local.org,cc=berayah@aleph.is-local.org">Both Aleph and Berayah</option> 
+      </select></label><br>
+  <label>Your email: <input type="text" name="email"></label><br>
+  <label>Your comment: <textarea name="comment"></textarea></label><br>
+  <button type="submit">submit</button>
+  </div>
+  </form>
+  </body>
+  </html>
