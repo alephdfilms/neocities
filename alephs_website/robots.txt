@@ -1,3 +1,0 @@
-Sitemap: https://aleph.is-local.org/sitemap.xml
-User-agent: Googlebot
-Disallow: /frames/
