@@ -28,11 +28,11 @@
   font-family: serif;
   }
   .ytskew {
-  transform: skewX(110deg) skewY(125deg); /* W3C */
-  -webkit-transform: skewX(110deg) skewY(125deg); /* Safari & Chrome */
-  -moz-transform: skewX(110deg) skewY(125deg); /* Firefox */
-  -ms-transform: skewX(110deg) skewY(125deg); /* Internet Explorer */
-  -o-transform: skewX(110deg) skewY(125deg); /* Opera */
+  transform: skewX(-20deg) skewY(-35deg); /* W3C */
+  -webkit-transform: skewX(-20deg) skewY(-35deg); /* Safari & Chrome */
+  -moz-transform: skewX(-20deg) skewY(-35deg); /* Firefox */
+  -ms-transform: skewX(-20deg) skewY(-35deg); /* Internet Explorer */
+  -o-transform: skewX(-20deg) skewY(-35deg); /* Opera */
   }
   .skewedstuff {
   transform: skewX(20deg) skewY(35deg); /* W3C */
@@ -44,13 +44,20 @@
   span {
   display: inline-block;
   }
+  .ytskew {
+  transform: skewX(-20deg) skewY(-35deg); /* W3C */
+  -webkit-transform: skewX(-20deg) skewY(-35deg); /* Safari & Chrome */
+  -moz-transform: skewX(-20deg) skewY(-35deg); /* Firefox */
+  -ms-transform: skewX(-20deg) skewY(-35deg); /* Internet Explorer */
+  -o-transform: skewX(-20deg) skewY(-35deg); /* Opera */
+  }
 </style>
 </head>
 <body>
 <h1>berjones.neocities.org</h1>
   <h2>Berayah Jones's website</h2>
 <p class="links">
-    <em><a href="https://www.youtube.com/channel/UCSaaQ_jaPyNhwfuS2xO8YaA">my youtube</a></em><br>
+    <span class="ytskew"><em><a href="https://www.youtube.com/channel/UCSaaQ_jaPyNhwfuS2xO8YaA">my youtube</a></em><br></span>
     <span class="skewedstuff"><a href="stuff.html">stuff</a></span><br>
     <span><a href="about.html">about</a></span>
 </p>
