@@ -13,6 +13,7 @@
   var elms=document.forms[0].elements;
   var q=elms.comment.value;
   window.open('mailto:' + elms.who.value + '?cc='+elms.email.value+'&subject=Feedback form&body=' + q);
+  window.history.back();
   }
   </script>
   <style>
