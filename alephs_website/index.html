@@ -22,33 +22,7 @@
       <frame name="main" src="frames/home.html">
       <frame name="bottom" scrolling="NO" src="frames/footer.html">
     <noframes>
-    <body>
-    <img src="images/logo_wordmark/logo.gif" align="right" alt="Aleph's Website">
-    <p>
-      <h1>Browser unsupported!</h1>
-      Your browser does not support the following:<br>
-      <noframes>&lt;frameset&gt; - Usually kept for compatibility reasons, however, this website uses frames so that the webmaster can add links and stuff without editing every single other page.</noframes><br>
-      <noscript>JavaScript - Unlike other sites that use JavaScript <em>frameworks</em>, this site utilies plain JavaScript for the best experience.</noscript><br>
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="320" height="240" id="flashContent"  name="" class="" align=""> <param name="movie" value="https://leopard.hosting.pecon.us/dl/avxnz/thisisjustatest.swf" /> <param name="bgcolor" value="#FFFFFF" /> <param name="play" value="true" /> <param name="loop" value="false" /> <param name="menu" value="true" /> <param name="quality" value="autohigh" /> <param name="allowfullscreen" value="true" /> <param name="fullscreenonselection" value="false" /> <param name="flashvars" value="" /> <!--[if !IE]>--> <object type="application/x-shockwave-flash" data="https://leopard.hosting.pecon.us/dl/avxnz/thisisjustatest.swf" width="320" height="240" class="" align=""> <param name="bgcolor" value="#FFFFFF" /> <param name="play" value="true" /> <param name="loop" value="false" /> <param name="menu" value="true" /> <param name="quality" value="autohigh" /> <param name="allowfullscreen" value="true" /> <param name="fullscreenonselection" value="false" /> <param name="flashvars" value="" /> <!--<![endif]--> <!--[if !IE]>--> </object> <!--<![endif]--> </object><br>
-	<script type="text/javascript">
-        var hasFlash = "Flash is not installed.";
-try {
-  var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
-  if (fo) {
-    hasFlash = "Flash is not installed.";
-  }
-} catch (e) {
-  if (navigator.mimeTypes
-        && navigator.mimeTypes['application/x-shockwave-flash'] != undefined
-        && navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin) {
-    hasFlash = "Flash is installed.";
-  }
-}
-        document.write(hasFlash);</script> (Unless there <em>is</em> something playing and I'm dumb.)
-	<br> However, if you use the latest version of a Chromium or Firefox based browser, such as Brave or Waterfox, we'd suggest that you enable Ruffle by clicking any link that says "<a href="javascript:var url = '//unpkg.com/@ruffle-rs/ruffle'; var script = document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle</a>".<br>
-      In addition, you can also try installing the Ruffle extension at <a href="https://www.ruffle.rs/">www.ruffle.rs</a>.<br>
-    </p>
-  </body>
+    <script type="text/javascript">window.location.assign("nosupport.html");</script>
     </noframes>
 </frameset>
 <!--</body>-->
