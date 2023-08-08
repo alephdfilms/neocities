@@ -18,55 +18,32 @@
   }
   a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  }
-  .rotate1 {
-  transform: rotate(45deg);
-
-
-  /* Legacy vendor prefixes that you probably don't need... */
-
-  /* Safari */
-  -webkit-transform: rotate(45deg);
-
-  /* Firefox */
-  -moz-transform: rotate(45deg);
-
-  /* IE */
-  -ms-transform: rotate(45deg);
-
-  /* Opera */
-  -o-transform: rotate(45deg);
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  
-  }
-  .rotate2 {
-  transform: rotate(-45deg);
-
-
-  /* Legacy vendor prefixes that you probably don't need... */
-
-  /* Safari */
-  -webkit-transform: rotate(-45deg);
-
-  /* Firefox */
-  -moz-transform: rotate(-45deg);
-
-  /* IE */
-  -ms-transform: rotate(-45deg);
-
-  /* Opera */
-  -o-transform: rotate(-45deg);
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2.5);
-  
+  color: black;
   }
   .alephdlink, .alephdlink:visited, .alephdlink:hover, .alephdlink:active, .alephdlink:link {
   color: red;
   text-decoration: underline;
   font-family: serif;
+  }
+  .skewedstuff {
+  transform: skewX(20deg) skewY(35deg); /* W3C */
+  -webkit-transform: skewX(20deg) skewY(35deg); /* Safari & Chrome */
+  -moz-transform: skewX(20deg) skewY(35deg); /* Firefox */
+  -ms-transform: skewX(20deg) skewY(35deg); /* Internet Explorer */
+  -o-transform: skewX(20deg) skewY(35deg); /* Opera */
+  }
+  .aboutskew {
+  transform: skewX(-20deg) skewY(-35deg); /* W3C */
+  -webkit-transform: skewX(-20deg) skewY(-35deg); /* Safari & Chrome */
+  -moz-transform: skewX(-20deg) skewY(-35deg); /* Firefox */
+  -ms-transform: skewX(-20deg) skewY(-35deg); /* Internet Explorer */
+  -o-transform: skewX(-20deg) skewY(-35deg); /* Opera */
+  }
+  * {
+  display: flex;
+  }
+  span {
+  display: inline-block;
   }
 </style>
 </head>
@@ -75,8 +52,8 @@
   <h2>Berayah Jones's website</h2>
 <p class="links">
     <em><a href="https://www.youtube.com/channel/UCSaaQ_jaPyNhwfuS2xO8YaA">my youtube</a></em><br>
-    <span class="rotate1"><a href="stuff.html">stuff</a></span>
-    <span class="rotate2"><a href="about.html">about</a></span>
+    <span class="skewedstuff"><a href="stuff.html">stuff</a></span><br>
+    <span><a href="about.html">about</a></span>
 </p>
 <span class="webmaster">website by <a href="https://alephd.neocities.org" class="alephdlink">alephd.neocities.org</a></span>
 </body>
