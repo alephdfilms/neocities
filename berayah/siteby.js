@@ -1,4 +1,5 @@
 var amount = 7
+var sitebytext = new Array(amount)
 let random = Math.floor(Math.random() * amount) + 1
 sitebytext[0]="website by <a href='https://alephd.neocities.org' class='alephdlink'>alephd.neocities.org</a>"
 sitebytext[1]="<a href='https://alephd.neocities.org' class='alephdlink'>aleph was here</a> :)"
