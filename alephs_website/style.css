@@ -7,8 +7,8 @@ html, body{
   color: rgb(0, 0, 0);
 }
 .container {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   position: absolute;
   left: 0;
   right: 0;
@@ -18,8 +18,15 @@ html, body{
   display: block;
   background-color: rgb(255, 255, 255);
 }
-.header, .footer {
+.header {
   height: 10%;
+  width: 100%;
+  display: block;
+  background-color: rgb(26, 3, 3);
+  color: rgb(255, 255, 255);
+}
+.footer {
+  height: 5%;
   width: 100%;
   display: block;
   background-color: rgb(26, 3, 3);
@@ -27,7 +34,7 @@ html, body{
 }
 .realcontent {
   width: 100%;
-  height: 80%;
+  height: 85%;
   overflow-x: hidden; 
   overflow-y: auto;
   overflow:scroll;
