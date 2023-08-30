@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 2.5vmin;
 }
 html, body{
   color: rgb(0, 0, 0);
@@ -37,7 +36,4 @@ html, body{
 }
 .realcontent {
   width: 100%;
-  overflow-x: hidden; 
-  overflow-y: auto;
-  overflow:scroll;
 }
