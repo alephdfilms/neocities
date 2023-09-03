@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- The icon. Just in case the browsers don't pick up the one in the root of the server... -->
 	<link rel="shortcut icon" type="text/css" href="favicon.ico">
+	<!-- midi.js for special occasions-->
+	<script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 	<!-- Now end the head. -->
 </head>
 <!-- This is where the fun begins! -->
@@ -30,14 +32,13 @@
 		<!-- End the header! -->
 		<div class="realcontent" style="text-align: center;">
 			<!--This is where everything else is located.-->
-		<script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
 		<h1>EVER HEARD OF LIMP BIZKIT???</h1>
 		<img src="images/limpgifzkit.gif" title="Limp Gifzkit. (A gif of the music video for Break Stuff, by Limp Bizkit. (c) 2000 Interscope Records." alt="Limp Gifzkit. (A gif of the music video for Break Stuff, by Limp Bizkit. (c) 2000 Interscope Records.">
-		<a href="javascript:MIDIjs.play('midi/brkstuf.mid'); document.getElementById('stopmidi').innerHTML = 'Click here to stop the music.'">Click here to play Break Stuff.</a> | <a href="javascript:MIDIjs.stop(); this.innerHTML = ''" id="stopmidi"></a>
+		<a href="javascript:MIDIjs.play('midi/brkstuf.mid');">Click here to play Break Stuff.</a> | <a href="javascript:MIDIjs.stop();" id="stopmidi">Click here to stop the music.</a>
 		</div>
 		<!-- footer! -->
 		<div class="footer"> <img src="images/blah_guy.svg" height="100%" alt="the blah guy.">
-			<span id="buttons"></span> <script src="js/loadbuttons.js"></script>
+			<span id="buttons"></span> <script type="text/javascript" src="js/loadbuttons.js"></script>
 		</div>
 		<!-- killed. -->
 	</div>
