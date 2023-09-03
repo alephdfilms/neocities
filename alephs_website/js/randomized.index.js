@@ -15,9 +15,9 @@ alttag[3]="I DRAW WAY BETTER THAN THIS. TRUST ME.";
 alttag[4]="THIS LINKS TO A WEBSITE.";
 
 var imagelinks=new Array(4)
-imagelinks[1]="";
-imagelinks[2]="";
-imagelinks[3]="";
+imagelinks[1]="#";
+imagelinks[2]="#";
+imagelinks[3]="#";
 imagelinks[4]="http://ranfren.neocities.org/";
 
 var banner = document.getElementById("randomimage");
