@@ -22,5 +22,5 @@ imagelinks[4]="http://ranfren.neocities.org/";
 
 var banner = document.getElementById("randomimage");
 var y=Math.round(Math.random()*4)%4+1;
-banner.innerHTML = '<a href="'+imagelinks[y]+'"><img src="'+myimages[y]+'" width="468" height="60" border="0" title="'+alttag[y]+'" alt="'+alttag[y]+'"></a><br /><a href="'+imagelinks[y]+'">'+alttag[y]+'</a>'
+banner.innerHTML = '<a style="text-align: center;" href="'+imagelinks[y]+'"><img src="'+myimages[y]+'" width="468" height="60" border="0" title="'+alttag[y]+'" alt="'+alttag[y]+'"></a><br /><a href="'+imagelinks[y]+'">'+alttag[y]+'</a>'
 }
