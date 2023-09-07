@@ -49,3 +49,11 @@ h1, h2, h3, h4, h5, h6 {
 .scrollable {
   overflow: scroll;
 }
+.artbook_content {
+  width: 50%;
+  height: 100%;
+}
+.artbook_selection {
+  width: 100%;
+  height: 10%;
+}
