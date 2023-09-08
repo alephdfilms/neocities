@@ -3,7 +3,7 @@ let artbook_art_picture = document.getElementById("artbook_art_picture");
 var latestbutton = "<button onClick='latest();'>&starf;</button>"
 var artbook1 = "<button onClick='chooseart('atwcloth.png');'>1</button>";
 function latest() {
-artbook_art_picture.src = "images/art/atwcloth.png";
+artbook_art_picture.src = "images/blah_guy.svg";
 }
 function chooseart(img) {
 artbook_art_picture.src = "images/art/" + img;
