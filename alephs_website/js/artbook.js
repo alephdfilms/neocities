@@ -9,3 +9,5 @@ function chooseart(img) {
 artbook_art_picture.src = "images/art/" + img;
 }
 artbook_selection.innerHTML = latestbutton + artbook1;
+
+latest();
