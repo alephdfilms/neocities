@@ -11,8 +11,8 @@ artbook_art_picture.src = "images/art/atwcloth.png";
 artbook_art_picture.height = "32";
 }
 
-artbook_art_picture.src = "images/art/" + art;
+artbook_art_picture.src = "images/art/" + art + ".png";
 
 artbook_selection.innerHTML = latestbutton + artbook1;
 
-artbook_art_picture.src = "images/art/" + art;
+artbook_art_picture.src = "images/art/" + art + ".png";
