@@ -7,16 +7,12 @@ const urlParams = new URLSearchParams(queryString);
 const art = urlParams.get('art');
 
 function latest() {
-artbook_art_picture.src = "images/blah_guy.svg";
+artbook_art_picture.src = "images/art/atwcloth.png";
 artbook_art_picture.height = "32";
 }
-if (hash) {
-  // Fragment exists
+
 artbook_art_picture.src = "images/art/" + art;
-};
 
 artbook_selection.innerHTML = latestbutton + artbook1;
 
-latest();
-
-artbook_art_picture.src = "images/art/" + hash;
+artbook_art_picture.src = "images/art/" + art;
