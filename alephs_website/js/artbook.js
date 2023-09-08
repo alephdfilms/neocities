@@ -16,3 +16,5 @@ artbook_art_picture.src = "images/art/" + hash;
 artbook_selection.innerHTML = latestbutton + artbook1;
 
 latest();
+
+artbook_art_picture.src = "images/art/" + hash;
