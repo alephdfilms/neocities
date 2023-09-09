@@ -9,8 +9,6 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const art = urlParams.get('art');
 
-//set default width
-artbook_art_picture.width = "100%";
 
 function latest() {
 //the latest and greatest
