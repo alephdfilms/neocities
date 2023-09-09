@@ -1,0 +1,7 @@
+Sitemap: https://alephd.neocities.org/sitemap.xml
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: *
+Allow: /
