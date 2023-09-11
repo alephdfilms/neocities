@@ -2,8 +2,11 @@
 let artbook_selection = document.getElementById("artbook_selection");
 let artbook_art_picture = document.getElementById("artbook_art_picture");
 //add buttons
-var latestbutton = "<button onClick='latest();'>&starf;</button>"
-var artbook1 = "<a href='?art=atwcloth'>1</button>";
+var latestbutton = "<button onClick='latest();'>&starf;</button> | "
+var artbook1 = "<a href='?art=atwcloth'>1</a> ";
+var artbook2 = "<a href='?art=Untitled24'>2</a> ";
+var artbook3 = "<a href='?art=16bit'>3</a> ";
+var artbook4 = "<a href='?art=256'>4</a> ";
 //add params
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -19,6 +22,6 @@ artbook_art_picture.src = "images/art/atwcloth.png";
 
 artbook_art_picture.src = "images/art/" + art + ".png";
 
-artbook_selection.innerHTML = latestbutton + artbook1;
+artbook_selection.innerHTML = latestbutton + artbook1 + artbook2 + artbook3 + artbook4;
 
 artbook_art_picture.src = "images/art/" + art + ".png";
