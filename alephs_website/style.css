@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .artbook_selection {
   width: 30%;
+  text-align: left;
   display: block;
   border-style: outset;
 }
