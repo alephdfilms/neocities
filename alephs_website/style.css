@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   border-style: outset;
 }
 .artbook_selection {
-  width: 100%;
-  height: 10%;
+  width: 30%;
+  display: block;
   border-style: outset;
 }
