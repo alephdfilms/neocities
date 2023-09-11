@@ -15,7 +15,7 @@ const art = urlParams.get('art');
 
 function latest() {
 //the latest and greatest
-artbook_art_picture.src = "images/art/atwcloth.png";
+artbook_art_picture.src = "images/art/256.png";
 }
 
 //set the params if needed
