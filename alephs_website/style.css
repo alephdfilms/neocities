@@ -50,10 +50,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow: scroll;
 }
 .artbook_content {
-  width: 50%;
+  width: 100%;
   height: 100%;
   display: block;
-  border: 1;
+  text-align: center;
   background-color: rgb(128, 128, 128);
 }
 .artbook_selection {
