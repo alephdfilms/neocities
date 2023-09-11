@@ -27,8 +27,4 @@ if(url.includes('?')){
   artbook_art_picture.height = 128;
 }
 
-artbook_art_picture.src = "images/art/" + art + ".png";
-
 artbook_selection.innerHTML = latestbutton + artbook1 + artbook2 + artbook3 + artbook4;
-
-artbook_art_picture.src = "images/art/" + art + ".png";
