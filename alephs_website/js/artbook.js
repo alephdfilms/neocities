@@ -18,7 +18,14 @@ function latest() {
 artbook_art_picture.src = "images/art/256.png";
 }
 
-//set the params if needed
+let url = window.location.href;
+if(url.includes('?')){
+  artbook_art_picture.src = "images/art/" + art + ".png";
+}else{
+  artbook_art_picture.src = "images/blah_guy.svg";
+  artbook_art_picture.width = 128;
+  artbook_art_picture.height = 128;
+}
 
 artbook_art_picture.src = "images/art/" + art + ".png";
 
