@@ -15,9 +15,9 @@ var halloween = {
   month: 11,
   date: 25
 }
-var newYears {
+var newYears = {
   month: 0,
-  day: 1
+  date: 1
 }
 function isItAprilFoolDay() {
   var now = new Date();
