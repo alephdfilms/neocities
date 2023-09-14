@@ -60,5 +60,5 @@ if(isItHalloween()){
 }
 var year = new Date();
 if(isItNewYears()){
-  holidaySpan.innerHTML = "HAPPY NEW YEARS " + year.getFullYear() +"! ENJOY IT WHILE IT LASTS.<br>Also, for those in the United Kingdom, it's Bank Holiday! <a href='https://www.youtube.com/watch?v=Re5RFOw25-8' title='Bank holiday comes six times a year Days of enjoyment to which everyone cheers Bank holiday comes with six-pack of beer Then it's back to work A-G-A-I-N' alt='Bank holiday comes six times a year Days of enjoyment to which everyone cheers Bank holiday comes with six-pack of beer Then it's back to work A-G-A-I-N'>You know what that means!</a>";
+  holidaySpan.innerHTML = "HAPPY NEW YEARS " + year.getFullYear() +"! ENJOY IT WHILE IT LASTS.<br>Also, for those in the United Kingdom, it's Bank Holiday! <a href='https://www.youtube.com/watch?v=Re5RFOw25-8' title='Bank holiday comes six times a year! Days of enjoyment to which everyone cheers!! Bank holiday comes with six-pack of beer, then it's back to work A-G-A-I-N.' alt='Bank holiday comes six times a year Days of enjoyment to which everyone cheers Bank holiday comes with six-pack of beer Then it's back to work A-G-A-I-N'>You know what that means!</a>";
 }
