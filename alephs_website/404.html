@@ -1,7 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>
+aleph's website.
+</title>
+<meta name="description" content="Aleph's Website is the one to go to for weird and strange things.">
+<meta name="keywords" content="Aleph Diallo, Aleph's Website, aleph's website., neocities, alephd, alephislocaldotorg, animations, art, games, videos">
+<meta name="viewport" content="content="width=device-width, initial-scale=1.0">
+<meta name="title" content="aleph's website.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<script>window.PAGE_ID = "home";</script>
+</head>
+
+<body>
 <script type="text/javascript">
-  async function addFooter() {
+  async function loadnow() {
     const resp = await fetch("/not_found.html");
     const html = await resp.text();
     document.body.insertAdjacentHTML("beforeend", html);
   }
+  loadnow();
 </script>
+</body>
+
+</html>
