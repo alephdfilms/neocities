@@ -11,18 +11,31 @@ aleph's website.
 <meta name="title" content="aleph's website.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" type="text/css" href="/style.css">
-<script>window.PAGE_ID = "home";</script>
 </head>
 
 <body>
-<script type="text/javascript">
-  async function loadnow() {
-    const resp = await fetch("/not_found.html");
-    const html = await resp.text();
-    document.body.insertAdjacentHTML("beforeend", html);
-  }
-  loadnow();
-</script>
+<!--lo and behol, the rebshite-->
+
+<nav>
+<div id="main-header">
+</div>
+</nav>
+<script type="text/javascript" src="/navigationbar.js"></script>
+
+<main>
+<div class="main-content" id="main">
+<h1>404</h1>
+<h2><a href="/">Go home</a></h2>
+</div>
+</main>
+
+<footer>
+<div class="footer">
+&copy Aleph Diallo<br>
+Made with Macromedia, HTML + &hearts;
+</div>
+</footer>
+
 </body>
 
 </html>
