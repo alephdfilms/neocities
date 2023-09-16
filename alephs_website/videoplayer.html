@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>
+videoplayer::aleph's website.
+</title>
+<meta name="description" content="Video player for Aleph's Website.">
+<meta name="keywords" content="Aleph Diallo, Aleph's Website, aleph's website., neocities, alephd, alephislocaldotorg, animations, art, games, videos">
+<meta name="viewport" content="content="width=device-width, initial-scale=1.0">
+<meta name="title" content="aleph's website.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+.playit {
+	border-style: solid;
+	background-color: #000;
+	border-color: orange;
+}
+.playit:hover {
+	border-style: outset;
+	background-color: yellow;
+	border-color: orange;
+}
+.playit:active {
+	border-style: inset;
+	background-color: #000;
+	border-color: yellow;
+}
+
+.embed-video { 
+	display:block;
+	position: absolute; 
+	z-index: 1; 
+}
+.tv-frame { 
+	display:block;
+	position: absolute; 
+	z-index: 2;
+	width: 292px;
+	height: 240px;
+	background-image: url("pictures/tv.png");
+	pointer-events: none;
+}
+.videobrowser {
+	border: 2px;
+	border-color: orange;
+	border-style: inset;
+	float: right;
+	width: 300px;
+}
+.embed-video {
+	display: block;
+  	width: 292px;
+  	height: 240px;
+  	background-image: repeating-radial-gradient(circle at 17% 32%, white, black 0.00085px);
+  	animation: static 5s linear infinite;
+}
+@keyframes static {
+    from {
+    background-size: 100% 100%;
+    }
+    to {
+    background-size: 200% 200%;
+    }
+}
+.selection {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 220px;
+}
+.
+</style>
+<script>window.PAGE_ID = "videos";</script>
+</head>
+
+<body>
+<!--lo and behol, the rebshite-->
+
+<nav>
+<div id="main-header">
+</div>
+</nav>
+<script type="text/javascript" src="navigationbar.js"></script>
+
+<main>
+<div class="main-content" id="main">
+<div class="tv-frame">
+</div>
+<div class="embed-video" id="embed-video">
+    
+</div>
+<div class="videobrowser">
+<h3>Welcome to the video player.</h3>
+<div class="selection" id="selection">
+</div>
+<small>
+<a href="javascript:var url = 'http://unpkg.com/@ruffle-rs/ruffle'; var script = document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle?</a><br>
+&copy Aleph Diallo<br>
+Made with Macromedia, HTML + &hearts;
+</small>
+</div>
+
+</div>
+
+</div>
+</main>
+
+<script type="text/javascript" src="videoplayer.js"></script>
+
+</body>
+
+</html>

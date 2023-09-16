@@ -1,0 +1,47 @@
+html, body {
+background-color: #000;
+color: #FFF;
+font-family: serif;
+}
+
+#main-header {
+text-align: center;
+}
+.footer {
+text-align: center;
+}
+
+button {
+background-color: #000;
+color: #FFF;
+border: 2px;
+}
+
+#nav-home, #nav-videos, #nav-games, #nav-art, #nav-goodies, #nav-email, #nav-rss {
+width: 80px;
+height: 80px;
+}
+button:hover {
+border: 2px;
+border-color: #FFF;
+border-style: outset;
+}
+button:active {
+border: 2px;
+border-color: #8E8E8E;
+border-style: inset;
+}
+
+.main-content {
+width: 50%;
+height: auto;
+margin: auto;
+}
+
+a:link {
+font-style: italic;
+}
+
+a:visited {
+color: #0000EE;
+}
