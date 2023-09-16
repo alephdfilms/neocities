@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  async function addFooter() {
+    const resp = await fetch("/not_found.html");
+    const html = await resp.text();
+    document.body.insertAdjacentHTML("beforeend", html);
+  }
+</script>
