@@ -29,7 +29,7 @@ aleph's website.
         var wickpath = "https://alephfiles.duckdns.org/wick/games/finger.wick";
         window.addEventListener('load', function() {
             // Download engine
-            fetch('wickengine.js')
+            fetch('../wickengine.js')
                 .then(resp => resp.text())
                 .then(text => {
                     // Inject engine
