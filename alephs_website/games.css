@@ -1,0 +1,7 @@
+.gameselection {
+width: 75%;
+height: 75%;
+background-color: #FFF;
+color: #000;
+overflow: scroll;
+}
