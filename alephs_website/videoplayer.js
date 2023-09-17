@@ -15,10 +15,10 @@ var videothumb1 = "<img src='pictures/thumbnails/susshine.jpg' width='32' height
 var videorelease1 = "Released August 2021.";
 var video1id = "susshine2021";
 
-var video1info = videothumb1 + nbsp + videotitle1 + "(Flash/Ruffle Required)" + nbsp + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
+var video1info = videothumb1 + nbsp + videotitle1 + nbsp + "(Flash/Ruffle Required)" + nbsp + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle2 = "<strong>Dying be like...</strong>";
-var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em>";
+var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em> (Doesn't work in Firefox. Odd.)";
 var videothumb2 = "<img src='pictures/thumbnails/dying.jpg' width='32' height='32' alt='The guy.'>";
 var videorelease2 = "Released August 2022.";
 var video2id = "dyinglike";
@@ -31,7 +31,7 @@ var videothumb3 = "<img src='pictures/thumbnails/harp.jpg' width='32' height='32
 var videorelease3 = "Released December 31st 2020.";
 var video3id = "theyheightenedtheharp";
 
-var video3info = videothumb3 + videotitle3 + " - " + videodesc3 + br + videorelease3 + br + "<a href='?videoid=" + video3id + "'><button class='playit'>Play it.</button></a>";
+var video3info = videothumb3 + nbsp + videotitle3 + " - " + videodesc3 + br + videorelease3 + br + "<a href='?videoid=" + video3id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle4 = "<strong>Whipped Cream</strong>";
 var videodesc4 = "<em>Million Champs Reanimated. With Auto Lipsync. It looks terrible, doesn't it?</em>";
@@ -39,7 +39,7 @@ var videothumb4 = "<img src='pictures/thumbnails/cream.jpg' width='32' height='3
 var videorelease4 = "Released September(?) 2021.";
 var video4id = "whipcream";
 
-var video4info = videothumb4 + videotitle4 + " - " + videodesc4 + br + videorelease4 + br + "<a href='?videoid=" + video4id + "'><button class='playit'>Play it.</button></a>";
+var video4info = videothumb4 + nbsp + videotitle4 + " - " + videodesc4 + br + videorelease4 + br + "<a href='?videoid=" + video4id + "'><button class='playit'>Play it.</button></a>";
 
 
 selection.innerHTML = video2info + hr + video4info + hr + video1info + hr + video3info + hr + "More coming soon.";
