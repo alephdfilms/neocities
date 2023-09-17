@@ -4,6 +4,8 @@ position: absolute;
 z-index: 1; 
 }
 .videobrowser {
+display: block;
+position:relative;
 border: 3px outset;
 border-color: #161E24;
 width: 300px;
