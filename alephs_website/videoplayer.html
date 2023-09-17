@@ -117,9 +117,9 @@ video {
 </div>
 <div class="videobrowser" id="main">
 <h3>Welcome to the video player.</h3>
-<h4>Controller</h4>
 <div class="controller" id="controller">
-<button onClick="video.pause();"><i class="material-icons">pause</i></button> <button onClick="video.play();"><i class="material-icons">play_arrow</i></button> <button onClick="video.pause(); video.currentTime = 0;"><i class="material-icons">stop</i></button> <button onClick="video.loop = 'true';"><i class="material-icons">loop</i></button> <button onClick="video.muted = true;"><i class="material-icons">volume_mute</i></button>
+<h4>Controller</h4>
+<button onClick="document.getElementsByTagName('video').pause();"><i class="material-icons">pause</i></button> <button onClick="document.getElementsByTagName('video').play();"><i class="material-icons">play_arrow</i></button> <button onClick="document.getElementsByTagName('video').pause(); document.getElementsByTagName('video').currentTime = 0;"><i class="material-icons">stop</i></button> <button onClick="document.getElementsByTagName('video').loop = 'true';"><i class="material-icons">loop</i></button> <button onClick="document.getElementsByTagName('video').muted = true;"><i class="material-icons">volume_mute</i></button>
 </div>
 <h4>Browser</h4>
 <div>
