@@ -1,6 +1,8 @@
 .gameselection {
 width: 75%;
 height: 75%;
+text-align: center;
+margin: auto;
 background-color: #FFF;
 color: #000;
 overflow: scroll;
