@@ -1,8 +1,3 @@
-.embed-video { 
-display:block;
-position: absolute; 
-z-index: 1; 
-}
 .videobrowser {
 border: 3px outset;
 border-color: #161E24;
