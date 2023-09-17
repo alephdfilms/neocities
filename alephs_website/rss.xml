@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<atom:link href="http://aleph.is-local.org/rss.xml" rel="self" type="application/rss+xml" />
 
 <channel>
   <title>aleph's website</title>
   <link>http://aleph.is-local.org</link>
   <description>Aleph's Website is the one to go to for weird and strange things.</description>
-  <image>
-    <url>http://aleph.is-local.org/pictures/thumbnails/dying.jpg</url>
-    <title>Dying Be Like</title>
-    <link>http://aleph.is-local.org/videoplayer?videoid=dyinglike</link>
-    <description>I think he's dying. Check it out.</description>
-  </image>
   <item>
-    <url>http://aleph.is-local.org/logos/flashpack_logo.png</url>
+    <link>http://aleph.is-local.org/goodies</link>
+    <guid>http://aleph.is-local.org/goodies</guid>
     <title>Goodies Update</title>
     <description>An update to the goodies directory. Added FlashPack.</description>
   </item>
