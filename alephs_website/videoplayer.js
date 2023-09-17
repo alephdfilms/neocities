@@ -61,6 +61,6 @@ if (videoid === "whipcream"){
 embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
-if (videoid === ""){
+if (videoid.length === 0){
 controller.innerHTML = "";
 }
