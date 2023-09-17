@@ -55,6 +55,7 @@ color: #0000EE;
 width: var(--widthwick);
 height: var(--heightwick);
 overflow: hidden;
+text-align: center;
 }
 
 #preloader {
