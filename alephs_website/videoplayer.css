@@ -4,15 +4,12 @@ position: absolute;
 z-index: 1; 
 }
 .videobrowser {
-display: block;
-position:relative;
 border: 3px outset;
 border-color: #161E24;
 width: 300px;
 background-color: #424B52;
 }
 .embed-video {
-display: block;
 border-style: outset;
 width: 292px;
 height: 240px;
@@ -88,4 +85,5 @@ color: #FFF;
 }
 .main-content {
 text-align: center;
+margin: auto;
 }
