@@ -45,3 +45,22 @@ font-style: italic;
 a:visited {
 color: #0000EE;
 }
+
+:root {
+--widthwick: 320px;
+--heightwick: 240px;
+}
+
+#wick-canvas-container {
+width: var(--widthwick);
+height: var(--heightwick);
+overflow: hidden;
+}
+
+#preloader {
+width: var(--widthwick);
+height: var(--heightwick);
+background-color: #FFF;
+font-family: sans-serif;
+overflow: hidden;
+}
