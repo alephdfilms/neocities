@@ -14,7 +14,7 @@ var videothumb1 = "<img src='pictures/thumbnails/susshine.jpg' width='32' height
 var videorelease1 = "Released August 2021.";
 var video1id = "susshine2021";
 
-var video1info = videothumb1 + videotitle1 + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
+var video1info = videothumb1 + nbsp + "(Flash/Ruffle Required)" + videotitle1 + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle2 = "<strong>Dying be like...</strong>";
 var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em>";
@@ -22,7 +22,7 @@ var videothumb2 = "<img src='pictures/thumbnails/dying.jpg' width='32' height='3
 var videorelease2 = "Released August 2022.";
 var video2id = "dyinglike";
 
-var video2info = videothumb2 + videotitle2 + " - " + videodesc2 + br + videorelease2 + br + "<a href='?videoid=" + video2id + "'><button class='playit'>Play it.</button></a>";
+var video2info = videothumb2 + nbsp + videotitle2 + " - " + videodesc2 + br + videorelease2 + br + "<a href='?videoid=" + video2id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle3 = "<strong>The Flute Dance</strong>";
 var videodesc3 = "<em>What would've been in an episode of Nightmare and Koopatroopaman, the worst web show idea I've ever made.</em>";
@@ -58,5 +58,3 @@ embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%"> <sourc
 if (videoid === "whipcream"){
 embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%"> <source src="//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
-
-let video = document.getElementsByTagName("video");
