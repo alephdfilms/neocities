@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>aleph's website</title>
+  <link>http://aleph.is-local.org</link>
+  <description>Aleph's Website is the one to go to for weird and strange things.</description>
+  <item>
+    <title>Dying Be Like</title>
+    <link>http://aleph.is-local.org/videoplayer?videoid=dyinglike</link>
+    <description>I think he's dying. Check it out.</description>
+  </item>
+  <item>
+    <title>Whipped Cream.</title>
+    <link>http://aleph.is-local.org/videoplayer?videoid=whipcream</link>
+    <description>Million Champs Reanimated. With Auto Lipsync. It looks terrible, doesn't it?</description>
+  </item>
+  <item>
+    <title>Goodies Update</title>
+    <link>http://aleph.is-local.org/goodies</link>
+    <description>An update to the goodies directory. Added FlashPack.</description>
+  </item>
+</channel>
+
+</rss>
