@@ -1,6 +1,6 @@
 var mainheader = document.getElementById("main-header");
 
-var weblogo = "<p><!--Website's logo--><!--Do you think it rips off the [as] one? I do.--><a href='#main' title='Skip navigation' alt='Skip navigation'><img src='logos/alephswebsite.png' id='alephs website logo'></a></p>"
+var weblogo = "<p><!--Website's logo--><!--Do you think it rips off the [as] one? I do.--><a href='#main' title='Skip navigation' alt='Skip navigation'><img src='/logos/alephswebsite.png' id='alephs website logo'></a></p>"
 
 var button1 = "<a href='/index.html'><button class='navbuttons' id='nav-home'><img src='/icons/buttons/home.png' alt='A HOME'><br> HOME</button></a>";
 var button2 = "<a href='/videoplayer.html'><button class='navbuttons' id='nav-videos'><img src='/icons/buttons/movie.png' alt='FILMSTRIP'><br>VIDEOS</button></a>";
