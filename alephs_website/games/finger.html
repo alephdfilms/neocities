@@ -25,7 +25,8 @@ aleph's website.
 <main>
 <div class="main-content" id="main" style="text-align: center;">
 <!--Game-->
-<script>
+
+<script type="text/javascript">
         var wickpath = window.location.protocol + "//alephfiles.duckdns.org/wick/games/finger.wick";
         window.addEventListener('load', function() {
             // Download engine
@@ -61,26 +62,6 @@ aleph's website.
                 });
         }, false);
     </script>
-
-    <style>
-        :root {
-            --widthwick: 320px;
-            --heightwick: 240px;
-        }
-
-        #wick-canvas-container {
-            width: var(--widthwick);
-            height: var(--heightwick);
-            overflow: hidden;
-        }
-
-        #preloader {
-            width: var(--widthwick);
-            height: var(--heightwick);
-            background-color: #FFF;
-            font-family: sans-serif;
-        }
-    </style>
 
     <!-- Preloader -->
     <div id="preloader">
