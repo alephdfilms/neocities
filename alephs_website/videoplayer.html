@@ -12,22 +12,6 @@ videoplayer::aleph's website.
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" type="text/css" href="style.css">
 <style type="text/css">
-.playit {
-	border-style: solid;
-	background-color: #000;
-	border-color: orange;
-}
-.playit:hover {
-	border-style: outset;
-	background-color: yellow;
-	border-color: orange;
-}
-.playit:active {
-	border-style: inset;
-	background-color: #000;
-	border-color: yellow;
-}
-
 .embed-video { 
 	display:block;
 	position: absolute; 
@@ -43,11 +27,12 @@ videoplayer::aleph's website.
 	pointer-events: none;
 }
 .videobrowser {
-	border: 2px;
-	border-color: orange;
+	border: 3px;
+	border-color: #161E24;
 	border-style: inset;
 	float: right;
 	width: 300px;
+	background-color: #424B52;
 }
 .embed-video {
 	display: block;
@@ -69,6 +54,8 @@ videoplayer::aleph's website.
 	overflow-x: hidden;
 	overflow-y: auto;
 	height: 160px;
+	color: black;
+	background-color: white;
 }
 video {
 	object-fit: cover;
@@ -97,6 +84,18 @@ video {
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+.controlbuttons, .playit:hover, .controlbuttons:hover {
+  background-color: #2F3338;
+  color: #FFF;
+  border-style: outset;
+  border: 2px;
+}
+.controlbuttons:active, .playit:active {
+  background-color: #1D1F24;
+  color: #FFF;
+  border-style: inset;
+  border: 2px;
+}
 </style>
 </head>
 
@@ -119,7 +118,7 @@ video {
 <h3>Welcome to the video player.</h3>
 <div class="controller" id="controller">
 <h4>Controller</h4>
-<button onClick="document.getElementById('videotag').pause();"><i class="material-icons">pause</i></button> <button onClick="document.getElementById('videotag').play();"><i class="material-icons">play_arrow</i></button> <button onClick="document.getElementById('videotag').pause(); document.getElementById('videotag').currentTime = 0;"><i class="material-icons">stop</i></button> <button onClick="document.getElementById('videotag').loop = 'true';"><i class="material-icons">loop</i></button> <button onClick="document.getElementById('videotag').muted = true;"><i class="material-icons">volume_mute</i></button> <button onClick="document.getElementById('videotag').muted = false;"><i class="material-icons">volume_up</i></button>
+<button class="controlbuttons" onClick="document.getElementById('videotag').pause();"><i class="material-icons">pause</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').play();"><i class="material-icons">play_arrow</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').pause(); document.getElementById('videotag').currentTime = 0;"><i class="material-icons">stop</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').loop = 'true';"><i class="material-icons">loop</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').muted = true;"><i class="material-icons">volume_mute</i></button> <button class="controlbuttons" onClick="document.getElementById('videotag').muted = false;"><i class="material-icons">volume_up</i></button>
 </div>
 <h4>Browser</h4>
 <div>
