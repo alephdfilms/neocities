@@ -12,8 +12,9 @@ var videotitle1 = "<strong>Sus-shine, my dear watson</strong>";
 var videodesc1 = "<em>An old animation detailing the wonders of Lesley Gore... and Greeny Phatom. Yeah.</em>";
 var videothumb1 = "<img src='pictures/thumbnails/susshine.jpg' width='32' height='32' alt='Lesley Gore and her visage.'>";
 var videorelease1 = "Released August 2021.";
+var video1id = "susshine2021";
 
-var video1info = videothumb1 + videotitle1 + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=susshine2021'><button class='playit'>Play it.</button></a>";
+var video1info = videothumb1 + videotitle1 + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
 
 selection.innerHTML = video1info + hr + "More coming soon.";
 
