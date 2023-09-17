@@ -1,5 +1,6 @@
 var embedvideo = document.getElementById("embed-video");
 var selection = document.getElementById("selection");
+var controller = document.getElementById("controller");
 var hr = "<hr>";
 var br = "<br>";
 var nbsp = "&nbsp;";
@@ -45,6 +46,7 @@ selection.innerHTML = video2info + hr + video4info + hr + video1info + hr + vide
 
 if (videoid === "susshine2021"){
 embedvideo.innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0' width='100%' height='100%'><param name='movie' value='http://alephfiles.duckdns.org/susshine_og.swf' /><param name='LOOP' value='false' /><embed src='http://alephfiles.duckdns.org/susshine_og.swf' width='100%' height='100%' loop='false' pluginspage='http://www.macromedia.com/go/getflashplayer' type='application/x-shockwave-flash'></object>";
+controller.innerHTML = "";
 }
 
 if (videoid === "dyinglike"){
@@ -57,4 +59,8 @@ embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="vid
 
 if (videoid === "whipcream"){
 embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+}
+
+if (videoid === ""){
+controller.innerHTML = "";
 }
