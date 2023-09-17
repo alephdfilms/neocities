@@ -4,22 +4,29 @@
 <channel>
   <title>aleph's website</title>
   <link>http://aleph.is-local.org</link>
+  <author>alephdiallo@mail.com</author>
   <description>Aleph's Website is the one to go to for weird and strange things.</description>
-  <item>
+  <image>
+    <url>http://aleph.is-local.org/pictures/thumbnails/dying.jpg</url>
     <title>Dying Be Like</title>
     <link>http://aleph.is-local.org/videoplayer?videoid=dyinglike</link>
+    <author>alephdiallo@mail.com</author>
     <description>I think he's dying. Check it out.</description>
-  </item>
-  <item>
+  </image>
+  <image>
+    <url>http://aleph.is-local.org/pictures/thumbnails/cream.jpg</url>
     <title>Whipped Cream.</title>
     <link>http://aleph.is-local.org/videoplayer?videoid=whipcream</link>
+    <author>alephdiallo@mail.com</author>
     <description>Million Champs Reanimated. With Auto Lipsync. It looks terrible, doesn't it?</description>
-  </item>
-  <item>
+  </image>
+  <image>
+    <url>http://aleph.is-local.org/logos/flashpack_logo.png</url>
     <title>Goodies Update</title>
     <link>http://aleph.is-local.org/goodies</link>
+    <author>alephdiallo@mail.com</author>
     <description>An update to the goodies directory. Added FlashPack.</description>
-  </item>
+  </image>
 </channel>
 
 </rss>
