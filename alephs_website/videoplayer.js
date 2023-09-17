@@ -15,7 +15,7 @@ var videothumb1 = "<img src='pictures/thumbnails/susshine.jpg' width='32' height
 var videorelease1 = "Released August 2021.";
 var video1id = "susshine2021";
 
-var video1info = videothumb1 + nbsp + "(Flash/Ruffle Required)" + videotitle1 + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
+var video1info = videothumb1 + nbsp + videotitle1 + "(Flash/Ruffle Required)" + nbsp + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle2 = "<strong>Dying be like...</strong>";
 var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em>";
