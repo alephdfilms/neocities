@@ -68,7 +68,7 @@ videoplayer::aleph's website.
 	overflow: scroll;
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 220px;
+	height: 160px;
 }
 video {
 	object-fit: cover;
@@ -87,7 +87,7 @@ video {
 <script type="text/javascript" src="navigationbar.js"></script>
 
 <main>
-<div class="main-content" id="main">
+<div class="main-content">
 <div class="tv-frame">
 </div>
 <div class="embed-video" id="embed-video">
@@ -95,7 +95,11 @@ video {
 </div>
 <div class="videobrowser">
 <h3>Welcome to the video player.</h3>
+<div id="main">
+<!--You can't add two ids, so I did that... -->
 <div class="selection" id="selection">
+</div>
+
 </div>
 <small>
 <a href="javascript:var url = 'https://unpkg.com/@ruffle-rs/ruffle'; var script = document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle?</a><br>
