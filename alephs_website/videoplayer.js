@@ -48,13 +48,13 @@ embedvideo.innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540
 }
 
 if (videoid === "dyinglike"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%"> <source src="//alephfiles.duckdns.org/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="//alephfiles.duckdns.org/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "theyheightenedtheharp"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%"> <source src="//alephfiles.duckdns.org/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="//alephfiles.duckdns.org/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "whipcream"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%"> <source src="//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
