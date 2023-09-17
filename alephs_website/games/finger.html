@@ -43,12 +43,10 @@ aleph's website.
                     fetch(wickpath)
                         .then(resp => resp.blob())
                         .then(blob => {
-                            // Hide preloader
-                            document.getElementById('preloader').style.display = 'none';
-                            document.getElementById('preloader').remove();
                             // Run project
                             Wick.WickFile.fromWickFile(blob, project => {
                                 project.inject(document.getElementById('wick-canvas-container'));
+                                document.getElementById("loading").innerHTML = "";
                             });
                         })
                         .catch((e) => {
@@ -64,12 +62,14 @@ aleph's website.
     </script>
 
     <!-- Preloader -->
-    <div id="preloader">
-      Loading...
-    </div>
 
     <!-- Wick project canvas container -->
-    <div id="wick-canvas-container"></div>
+    <div id="wick-canvas-container">
+
+    </div>
+    <div id="loading">
+    Loading...
+    </div>
   <!--Game end-->
 </div>
 </main>
