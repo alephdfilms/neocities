@@ -74,6 +74,29 @@ video {
 	object-fit: cover;
 	object-align: center center; /* default, anchor to center of video */
 }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/materialicons.woff2") format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
 </style>
 </head>
 
@@ -91,15 +114,15 @@ video {
 <div class="tv-frame">
 </div>
 <div class="embed-video" id="embed-video">
-    
+</div>
+<div class="controller" id="controller">
+<button onClick="video.pause();"><i class="material-icons">pause</i></button> <button onClick="video.play();"><i class="material-icons">play_arrow</i></button> <button onClick="video.pause(); video.currentTime = 0;"><i class="material-icons">stop</i></button> <button onClick="video.loop = 'true';"><i class="material-icons">loop</i></button> <button onClick="video.muted = true;"><i class="material-icons">volume_mute</i></button>
 </div>
 <div class="videobrowser">
 <h3>Welcome to the video player.</h3>
 <div id="main">
-<!--You can't add two ids, so I did that... -->
 <div class="selection" id="selection">
 </div>
-
 </div>
 <small>
 <a href="javascript:var url = 'https://unpkg.com/@ruffle-rs/ruffle'; var script = document.createElement(%27script%27); script.src = url; document.body.appendChild(script);">Enable Ruffle?</a><br>
