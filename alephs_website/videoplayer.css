@@ -12,15 +12,6 @@ float: left;
 width: 426px;
 height: 240px;
 background-image: url("pictures/static.gif");
-animation: static 5s linear infinite;
-}
-@keyframes static {
-from {
-background-size: 100% 100%;
-}
-to {
-background-size: 200% 200%;
-}
 }
 .selection {
 overflow: scroll;
