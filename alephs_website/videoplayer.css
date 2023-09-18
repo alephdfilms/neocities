@@ -1,3 +1,6 @@
+html, body {
+margin: 0 auto;
+}
 .videobrowser {
 border: 3px outset;
 border-color: #161E24;
@@ -78,10 +81,4 @@ color: #FFF;
 
 a:visited {
 color: #FFF;
-}
-.main-content {
-width: 100%;
-height: auto;
-text-align: center;
-margin: 0 auto;
 }
