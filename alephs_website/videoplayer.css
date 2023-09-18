@@ -11,7 +11,7 @@ border-style: outset;
 float: left;
 width: 426px;
 height: 240px;
-background-image: repeating-radial-gradient(circle at 17% 32%, white, black 0.00085px);
+background-image: url("pictures/static.gif");
 animation: static 5s linear infinite;
 }
 @keyframes static {
