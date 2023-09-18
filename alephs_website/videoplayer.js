@@ -18,7 +18,7 @@ var video1id = "susshine2021";
 var video1info = videothumb1 + nbsp + videotitle1 + nbsp + "(Flash/Ruffle Required)" + nbsp + " - " + videodesc1 + br + videorelease1 + br + "<a href='?videoid=" + video1id + "'><button class='playit'>Play it.</button></a>";
 
 var videotitle2 = "<strong>Dying be like...</strong>";
-var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em> (Doesn't work in Firefox. Odd.)";
+var videodesc2 = "<em>He didn't have a single idea, so he did some things.</em>";
 var videothumb2 = "<img src='pictures/thumbnails/dying.jpg' width='32' height='32' alt='The guy.'>";
 var videorelease2 = "Released August 2022.";
 var video2id = "dyinglike";
