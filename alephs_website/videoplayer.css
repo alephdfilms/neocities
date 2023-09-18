@@ -80,6 +80,8 @@ a:visited {
 color: #FFF;
 }
 .main-content {
+width: 100%;
+height: auto;
 text-align: center;
 margin: 0 auto;
 }
