@@ -65,3 +65,8 @@ background-color: #FFF;
 font-family: sans-serif;
 overflow: hidden;
 }
+
+img {
+image-rendering: pixelated;
+image-rendering: -webkit-optimize-contrast;
+}
