@@ -3,6 +3,7 @@ background-color: #FF0000;
 border-style: solid;
 border-width: 4px;
 border-color: #FF0000;
+width: auto;
 }
 .avatar {
 width: 100%;
