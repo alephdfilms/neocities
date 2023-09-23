@@ -5,5 +5,5 @@ text-align: center;
 margin: auto;
 background-color: #FFF;
 color: #000;
-overflow: scroll;
+overflow-y: hidden;
 }
