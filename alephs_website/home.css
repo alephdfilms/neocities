@@ -13,3 +13,6 @@ width: 50%;
 border-style: outset;
 border-color: cyan;
 }
+.scroll {
+overflow-y: hidden;
+}
