@@ -69,4 +69,10 @@ overflow: hidden;
 
 img {
 image-rendering: pixelated;
+object-fit: cover;
+}
+
+img.stretchimg {
+image-rendering: pixelated;
+object-cover: fill;
 }
