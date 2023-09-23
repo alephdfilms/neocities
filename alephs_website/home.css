@@ -15,8 +15,9 @@ float: left;
 }
 .updates {
 width: 75%;
-height: 30%;
+height: 100%;
 display: block;
+float: right;
 }
 .update_scroll {
 overflow-y: hidden;
