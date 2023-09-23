@@ -1,23 +1,4 @@
 .homepage {
 background-color: #FF0000;
-}
-.avatar {
-width: 231px;
-height: 369px;
-}
-.avatarbox {
-width: 231px;
-height: 369px;
-margin: 0;
-display: block;
-float: left;
-}
-.updates {
-width: 75%;
-height: 100%;
-display: block;
-}
-.update_scroll {
-overflow-y: hidden;
-height: 70%;
+text-align: center;
 }
