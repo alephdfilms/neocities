@@ -6,7 +6,9 @@ width: 231px;
 height: 369px;
 }
 .avatarbox {
-width: 25%;
+width: 231px;
+height: 369px;
+margin: 0;
 display: block;
 float: left;
 }
