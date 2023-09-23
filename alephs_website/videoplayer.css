@@ -20,6 +20,7 @@ overflow-y: auto;
 height: 160px;
 color: black;
 background-color: white;
+font-family: serif;
 }
 video {
 object-fit: cover;
