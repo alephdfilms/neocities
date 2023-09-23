@@ -16,7 +16,6 @@ float: left;
 width: 75%;
 height: 100%;
 display: block;
-float: right;
 }
 .update_scroll {
 overflow-y: hidden;
