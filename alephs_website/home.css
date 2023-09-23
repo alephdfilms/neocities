@@ -4,7 +4,12 @@ border-style: solid;
 border-width: 4px;
 border-color: #FF0000;
 }
-.randomimage {
+.randomimg {
 width: 100%;
 height: auto;
+}
+.randomimage, .updates {
+width: 50%;
+border-style: outset;
+border-color: cyan;
 }
