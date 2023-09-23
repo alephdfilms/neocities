@@ -8,8 +8,13 @@ border-color: #FF0000;
 width: 100%;
 height: auto;
 }
-.avatarbox, .updates {
-width: 50%;
+.avatarbox {
+width: 25%;
+display: block;
+}
+.updates {
+width: 75%;
+height: 30%;
 display: block;
 }
 .update_scroll {
