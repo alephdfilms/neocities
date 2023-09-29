@@ -1,4 +1,4 @@
-name: Deploy to neocities (Aleph's Website)
+name: Deploy to boredom neocities
 
 # only run on changes to main
 on:
