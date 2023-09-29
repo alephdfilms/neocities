@@ -50,3 +50,8 @@ height: auto;
 .footer {
 font-size: 1px;
 }
+
+.main_content {
+width: 100%;
+display: block;
+}
