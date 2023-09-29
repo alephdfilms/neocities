@@ -8,7 +8,7 @@ on:
       - main
     # only run deploys when public changes
     paths:
-      - 'alephs_website/**'
+      - 'boredom/**'
 
 jobs:
   deploy:
