@@ -1,0 +1,30 @@
+/* body */
+html, body {
+/* We include html to apply to all pages */
+background: #CCC url("images/nav_background.gif") no-repeat;
+font-family: Helvetica, Helvetica Neue Regular, Arial, sans-serif;
+margin: 0;
+}
+
+/* to make images less blurred. i hate blurred images. pixelation ftw!!! */
+img {
+image-rendering: pixelated;
+}
+
+.button {
+width: 156px;
+height: 33px;
+background: #CCFFFF;
+color: #000080;
+cursor: default;
+}
+.button:hover {
+width: 156px;
+height: 33px;
+background: #FFFF00;
+cursor: pointer;
+}
+.nav_buttons {
+width: 177px;
+height: 328px;
+}
