@@ -16,6 +16,9 @@ width: 156px;
 height: 33px;
 background: #CCFFFF;
 color: #000080;
+border-style: solid;
+border-color: #000040;
+border-width: 2px;
 cursor: default;
 }
 .button:hover {
@@ -26,7 +29,8 @@ cursor: pointer;
 }
 .nav_buttons {
 width: 177px;
-height: 328px;
+height: 540px;
+display: inline-block;
 }
 
 .nophone {
@@ -51,7 +55,11 @@ height: auto;
 font-size: 1px;
 }
 
-.main_content {
+.main {
 width: 100%;
 display: block;
+}
+
+.main_content {
+display: inline-block;
 }
