@@ -28,3 +28,25 @@ cursor: pointer;
 width: 177px;
 height: 328px;
 }
+
+.nophone {
+width: 100%;
+height: 100%;
+display: block;
+background: #FFF;
+margin: 0 auto;
+text-align: center;
+}
+
+.header {
+background: #FFF;
+width: 100%;
+height: 20%;
+}
+.logo_boredom {
+height: auto;
+}
+
+.footer {
+font-size: 1px;
+}
