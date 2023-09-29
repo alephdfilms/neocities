@@ -59,7 +59,7 @@ font-size: small;
 .main {
 width: 100%;
 display: block;
-background: url("images/nav_background.png") no-repeat;
+background: url("/images/nav_background.png") no-repeat;
 }
 
 .main_content {
