@@ -1,7 +1,7 @@
 /* body */
 html, body {
 /* We include html to apply to all pages */
-background: #CCC url("images/nav_background.gif") no-repeat;
+background: #CCC;
 font-family: Helvetica, Helvetica Neue Regular, Arial, sans-serif;
 margin: 0;
 }
@@ -59,6 +59,7 @@ font-size: small;
 .main {
 width: 100%;
 display: block;
+background: url("images/nav_background.gif") no-repeat;
 }
 
 .main_content {
