@@ -8,7 +8,7 @@ on:
       - main
     # only run deploys when public changes
     paths:
-      - 'boredom/**'
+      - 'boredom/*'
 
 jobs:
   deploy:
