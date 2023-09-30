@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<title>boredom homepage</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1;">
+<meta name="description" content="Boredom, Inc. is the website of Aleph Diallo. This website contains an extensive portfolio of art, animations and games.">
+<meta name="keywords" content="Aleph Diallo, boredom inc, Boredom Inc, Boredom Inc., Boredom, boredom, boredom incorporated, animations, art, comics, games, videos">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head>
+
+<!--Styles and script-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function() {
+    var titles = ['boredom :: welcome', 'boredom :: to', 'boredom :: the', 'boredom :: site'];
+    var currentIndex = 0;
+    var intervalDuration = 1000; // 1 second
+  
+    function changeTitle() {
+      document.title = titles[currentIndex];
+      currentIndex = (currentIndex + 1) % titles.length;
+    }
+  
+    changeTitle(); // Initial title
+  
+    setInterval(changeTitle, intervalDuration);
+	
+});
+</script>
+
+<body>
+
+<div class="homepage">
+
+<div class="header">
+<p align="center"><img src="images/logos/blah_guy_100.gif" width="50" height="50" alt="The Blah Guy"></p>
+<h1>boredom, inc.</h1>
+<hr>
+</div>
+
+<div align="center" style="background: #FFF; width: 426px; text-align: center; margin: auto;">
+<a href="javascript:alert('This IS the homepage.\nDumbass.');">Home</a> | <a href="video_catalog.html">Videos</a> | <a href="art.html">Art</a> | <a href="games.html">Games</a> | <a href="downloads.html">Downloads</a> | <a href="about.html">About</a>
+</div>
+
+<div align="center">
+
+<div width="466" height="371" align="left">
+  <div align="center"><img src="images/art/blahguypoint.gif" alt="The Blah Guy Pointing To The Right" width="258" height="371">
+      <img src="images/info.gif" alt="Welcome to Boredom, Inc., the website of Aleph Diallo. This website contains an extensive portfolio of art, animations and games. If there are any items missing, check out his old site at alephd.neocities.org!" width="258" height="371" border="0" usemap="#Map">
+<map name="Map"><area shape="rect" coords="23,290,204,308" href="https://alephd.neocities.org" alt="The link to the archive">
+</map>
+  </div>
+</div>
+
+</div>
+<div align="center">
+<hr>
+&copy; 2023-(year here) aleph diallo
+</div>
+
+</div>
+
+</body>
+
+</html>

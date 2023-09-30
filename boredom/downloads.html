@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<title>boredom homepage</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1;">
+<meta name="description" content="Boredom, Inc. is the website of Aleph Diallo. This website contains an extensive portfolio of art, animations and games.">
+<meta name="keywords" content="Aleph Diallo, boredom inc, Boredom Inc, Boredom Inc., Boredom, boredom, boredom incorporated, animations, art, comics, games, videos">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head>
+
+<!--Styles and script-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function() {
+    var titles = ['boredom :: welcome', 'boredom :: to', 'boredom :: the', 'boredom :: site'];
+    var currentIndex = 0;
+    var intervalDuration = 1000; // 1 second
+  
+    function changeTitle() {
+      document.title = titles[currentIndex];
+      currentIndex = (currentIndex + 1) % titles.length;
+    }
+  
+    changeTitle(); // Initial title
+  
+    setInterval(changeTitle, intervalDuration);
+	
+});
+</script>
+
+<body>
+
+<div class="homepage">
+
+<div class="header">
+<p align="center"><img src="images/logos/blah_guy_100.gif" width="50" height="50" alt="The Blah Guy"></p>
+<h1>boredom, inc.</h1>
+<hr>
+</div>
+
+<div align="center" style="background: #FFF; width: 426px; text-align: center; margin: auto;">
+<a href="home.html">Home</a> | <a href="video_catalog.html">Videos</a> | <a href="art.html">Art</a> | <a href="games.html">Games</a> | <a href="#insert-alert-here">Downloads</a> | <a href="about.html">About</a>
+</div>
+
+<div align="center">
+
+<div width="462" height="240" style="overflow: scroll;">
+Downloads coming soon!
+</div>
+
+</div>
+<div align="center">
+<hr>
+&copy; 2023-(year here) aleph diallo
+</div>
+
+</div>
+
+</body>
+
+</html>

@@ -9,3 +9,23 @@ margin: 0;
 img {
 image-rendering: pixelated;
 }
+
+div {
+display: block;
+}
+.enter_home {
+text-align: center;
+}
+.header {
+text-align: center;
+}
+
+a, a:link {
+outline: none;
+}
+a img {
+outline: none;
+}
+img {
+outline: none;
+}
