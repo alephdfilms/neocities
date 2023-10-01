@@ -1,6 +1,6 @@
 function latestchardesign() {
 //automatically go to the latest design of a character
-document.getElementById("latest").href = "../frames/char/stuart/design_0001.html";
+document.getElementById("latest").href = "../frames/char/blah/design_0001.html";
 document.getElementById("latest_stuart").href = "../frames/char/stuart/design_0001.html";
 }
 function latestgraphicdesign() {
