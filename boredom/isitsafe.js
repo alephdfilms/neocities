@@ -2,6 +2,7 @@
 
 // Get IE or Edge browser version
 var version = detectIE();
+var isitsafe = null;
 
 /**
  * detect IE
@@ -28,6 +29,7 @@ function detectIE() {
   if (msie > 0) {
     // IE 10 or older => return version number
     return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    var isitsafe = "nope";
   }
 
   var trident = ua.indexOf('Trident/');
@@ -35,20 +37,21 @@ function detectIE() {
     // IE 11 => return version number
     var rv = ua.indexOf('rv:');
     return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    var isitsafe = "nope";
   }
 
   var edge = ua.indexOf('Edge/');
   if (edge > 0) {
     // Edge (IE 12+) => return version number
     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+    // Edge is actually nice with boredom
   }
 
   // other browser
   return false;
-  var isitsafe = "false";
 }
 
-if(isitsafe === 'false') {
+if(isitsafe) {
 window.location.replace('/notsupported.html');
 } else {
 // it IS safe...
