@@ -20,30 +20,7 @@
 <p><a href="/home.html"><img src="/images/logos/blah_guy_100.gif" alt="A bland cartoon face, belonging to the Blah Guy" width="100" height="100"></a></p>
 <h1>404</h1>
 <p>Click the blah guy to go to the homepage. (He's the cartoon face above this text)</p>
-<p id="time"></p>
 
-  <script type="text/javascript">
-  function updateTime(){
-    var currentTime = new Date()
-    var hours = currentTime.getHours()
-    var minutes = currentTime.getMinutes()
-	var seconds = currentTime.getSeconds()
-    if (minutes < 10){
-        minutes = "0" + minutes
-    }
-	if (seconds < 10){
-        seconds = "0" + seconds
-    }
-    var t_str = hours + ":" + minutes + ":" + seconds + " ";
-    if(hours > 11){
-        t_str += "PM";
-    } else {
-        t_str += "AM";
-    }
-    document.getElementById('time').innerHTML = t_str;
-	}
-	setInterval(updateTime, 0.00000000001);
-  </script>
 </div>
 
 <hr>
