@@ -52,7 +52,8 @@ function detectIE() {
 }
 
 if(isitsafe) {
-window.location.replace('/notsupported.html');
+console.log("yes...");
 } else {
-// it IS safe...
+alert("You are using Internet Explorer.");
+window.location.replace('/notsupported.html');
 }
