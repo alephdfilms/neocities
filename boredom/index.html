@@ -12,23 +12,6 @@
 
 <!--Styles and script-->
 <link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript">
-window.addEventListener('DOMContentLoaded', function() {
-    var titles = ['boredom :: click', 'boredom :: to', 'boredom :: enter', 'boredom :: please', 'boredom :: do not mind', 'boredom :: the skeletons'];
-    var currentIndex = 0;
-    var intervalDuration = 1000; // 1 second
-  
-    function changeTitle() {
-      document.title = titles[currentIndex];
-      currentIndex = (currentIndex + 1) % titles.length;
-    }
-  
-    changeTitle(); // Initial title
-  
-    setInterval(changeTitle, intervalDuration);
-	
-});
-</script>
 <script type="text/javascript" language="JavaScript" src="isitsafe.js">
 </script>
 </head>
@@ -42,30 +25,6 @@ window.addEventListener('DOMContentLoaded', function() {
 Click the blah guy to enter. (He's the cartoon face above this text)
 </p>
 <noscript>You need to enable JavaScript before entering!</noscript>
-<p id="time"></p>
-
-  <script type="text/javascript">
-  function updateTime(){
-    var currentTime = new Date()
-    var hours = currentTime.getHours()
-    var minutes = currentTime.getMinutes()
-	var seconds = currentTime.getSeconds()
-    if (minutes < 10){
-        minutes = "0" + minutes
-    }
-	if (seconds < 10){
-        seconds = "0" + seconds
-    }
-    var t_str = hours + ":" + minutes + ":" + seconds + " ";
-    if(hours > 11){
-        t_str += "PM";
-    } else {
-        t_str += "AM";
-    }
-    document.getElementById('time').innerHTML = t_str;
-	}
-	setInterval(updateTime, 0.00000000001);
-  </script>
 </div>
 
 <hr>
