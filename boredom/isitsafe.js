@@ -45,10 +45,11 @@ function detectIE() {
 
   // other browser
   return false;
+  var isitsafe = "false";
 }
 
-if(detectIE() !== false) {
-console.log("cool");
+if(isitsafe === 'false') {
+window.location.replace('/notsupported.html');
 } else {
-window.location.replace("/notsupported.html");
+// it IS safe...
 }
