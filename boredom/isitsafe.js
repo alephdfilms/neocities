@@ -8,5 +8,5 @@ if (isIE()) {
     window.location.replace("/notsupported.html");
 }
 else {
-    alert("Not Internet Explorer");
+    console.log("ok");
 }
