@@ -60,6 +60,12 @@ width: 50%;
 height: 100px;
 display: inline-block;
 }
+.sidebar {
+float: left;
+}
+.content {
+float: right;
+}
 
 .screenshot, .name {
 display: inline-block;
