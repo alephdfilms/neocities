@@ -11,7 +11,7 @@ notsafe();
 //method 2
 var ua = window.navigator.userAgent;
 var isIE = /MSIE|Trident|Edge\//.test(ua);
-if ( isIE ) {
+if (isIE) {
 notsafe();
 }
 
