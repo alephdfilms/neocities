@@ -24,6 +24,10 @@ font-weight: 600;
 .header_contents {
 font-family: Arial, sans-serif;
 }
+.name {
+font-weight: 700;
+font-size: medium;
+}
 
 
 /* my god chris chan's attempts at imitating cartoons are aggravating */
@@ -51,4 +55,9 @@ overflow-x: visible;
 overflow-y: scroll;
 width: 50%;
 height: 100px;
+display: block;
+}
+
+.screenshot, .name {
+display: inline-block;
 }
