@@ -1,0 +1,43 @@
+/* set margin */
+html, body {
+margin: 0;
+}
+
+/* align header, footer and stuff */
+.align_center, .header_contents, .navigation_contents, .footer_contents {
+text-align: center;
+}
+
+/* cosmetics */
+a, a:link, a:visited {
+color: #FF0000;
+}
+a:hover {
+color: #00FF00;
+font-weight: 700;
+}
+a:active {
+color: #0000FF;
+font-weight: 600;
+}
+.header_contents {
+font-family: Helvetica, Arial, sans-serif;
+}
+/* my god chris chan's attempts at imitating cartoons are aggravating */
+/* sorry, listening to the documentary on chris-chan */
+/* anyway, on with the CSS */
+button {
+border-style: none;
+background-color: #FF0000;
+color: #000000;
+}
+button:hover {
+border-style: none;
+background-color: #FF4444;
+color: #000000;
+}
+button:active {
+border-style: none;
+background-color: #330000;
+color: #FFFFFF;
+}
