@@ -24,6 +24,8 @@ font-weight: 600;
 .header_contents {
 font-family: Arial, sans-serif;
 }
+
+
 /* my god chris chan's attempts at imitating cartoons are aggravating */
 /* sorry, listening to the documentary on chris-chan */
 /* anyway, on with the CSS */
@@ -41,4 +43,12 @@ button:active {
 border-style: none;
 background-color: #330000;
 color: #FFFFFF;
+}
+
+/* sidebars */
+.sidebar, .content {
+overflow-x: visible;
+overflow-y: scroll;
+width: 50%;
+height: 100px;
 }
