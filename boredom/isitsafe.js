@@ -3,16 +3,20 @@ function notsafe() {
 window.location.replace('/notsupported.html');
 }
 
+//method 1
 if (window.document.documentMode) {
 notsafe();
 }
-//if the above does not work
+
+//method 2
 var ua = window.navigator.userAgent;
 var isIE = /MSIE|Trident|Edge\//.test(ua);
 if ( isIE ) {
 notsafe();
 }
-function isCrappyIE() {
+
+//method 3
+function reallyIsIE() {
     var ua = window.navigator.userAgent;
     var crappyIE = false;
     var msie = ua.indexOf('MSIE ');
@@ -24,10 +28,10 @@ function isCrappyIE() {
         crappyIE = true;
     }
     return crappyIE;
-}   
-//if it REALLY sucks
-if(!isCrappyIE()) {
-  //
+}
+
+if(!reallyIsIE()) {
+console.log("good job");
 }else {
 notsafe();
 }
