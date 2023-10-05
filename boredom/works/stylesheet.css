@@ -1,6 +1,7 @@
 /* set margin */
 html, body {
 margin: 0;
+font-family: Times New Roman, serif;
 }
 
 /* align header, footer and stuff */
