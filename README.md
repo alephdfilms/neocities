@@ -1,3 +1,1 @@
-Just my Neocities site.
-
-[Mirrored to Github Pages for your Internet Explorer browsing experience!](http://aleph.is-local.org/)
+Almost all of the Neocities websites that I've worked on.
