@@ -1,0 +1,25 @@
+name: Deploy to neocities (rubberocket)
+
+# only run on changes to main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    # only run deploys when public changes
+    paths:
+      - 'rubberocket/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    # When the dist_dir is ready, deploy it to neocities
+    - name: Deploy to neocities
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.RUBBEROCKET_KEY }}
+        cleanup: true
+        dist_dir: rubberocket
