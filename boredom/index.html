@@ -26,8 +26,7 @@ Click the blah guy to enter. (He's the cartoon face above this text)
 </p>
 <noscript>You need to enable JavaScript before entering!</noscript>
 <p align="center">
-You are visitor <span id="hitcount"></span>.<br>
-<small>Only applies to Neocities version.</small>
+You are <span id="yesorno">visitor</span> <span id="hitcount"></span>.<br>
 </p>
 </div>
 
@@ -50,6 +49,11 @@ You are visitor <span id="hitcount"></span>.<br>
   };
   xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=boredominc", true);
   xhttp.send();
+  if(location.hostname.match('aleph.is-local.org')){
+    document.getElementById('yesorno').innerHTML = "<em>NOT</em> visitor";
+  }else {
+    document.getElementById('yesorno').innerHTML = "visitor";
+  }
 </script>
 </body>
 
