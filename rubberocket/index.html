@@ -8,5 +8,28 @@
   <body bgcolor="#FFF" text="#000">
     <h1><img src="pictures/rubberocket.gif" height="32" alt="rubberocket logo with asterisk"></h1>
     <p>test</p>
+    <p>Hits: <span id="hitcount"></span></p>
+  <script type="text/javascript">
+  <script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var site_data = JSON.parse(this.responseText);
+        var num_arr = site_data.info.views.toString().split("");
+        var num_str = "";
+        for (i = 0; i < num_arr.length; i++) {
+            num_str += num_arr[i];
+            if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+            var date_str = site_data.info.last_updated;
+            var date_obj = new Date(site_data.info.last_updated);
+            document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+        }
+        document.getElementById("hitcount").innerHTML = num_str;
+    }
+};
+xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=rubberocket", true);
+xhttp.send();
+</script>
+  </script>
   </body>
 </html>
