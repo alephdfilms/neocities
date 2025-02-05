@@ -45,20 +45,20 @@ var video4info = videothumb4 + nbsp + videotitle4 + " - " + videodesc4 + br + vi
 selection.innerHTML = video2info + hr + video4info + hr + video1info + hr + video3info + hr + "More coming soon.";
 
 if (videoid === "susshine2021"){
-embedvideo.innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='" + window.location.protocol + "//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0' width='100%' height='100%'><param name='movie' value='" + window.location.protocol + "http://alephfiles.duckdns.org/susshine_og.swf' /><param name='LOOP' value='false' /><embed src='http://alephfiles.duckdns.org/susshine_og.swf' width='100%' height='100%' loop='false' pluginspage='http://www.macromedia.com/go/getflashplayer' type='application/x-shockwave-flash'></object>";
+embedvideo.innerHTML = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='" + window.location.protocol + "//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0' width='100%' height='100%'><param name='movie' value='" + "../../archive/webfiles/susshine_og.swf' /><param name='LOOP' value='false' /><embed src='../../webfiles/susshine_og.swf' width='100%' height='100%' loop='false' pluginspage='http://www.macromedia.com/go/getflashplayer' type='application/x-shockwave-flash'></object>";
 controller.innerHTML = "";
 }
 
 if (videoid === "dyinglike"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '//alephfiles.duckdns.org/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "theyheightenedtheharp"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '//alephfiles.duckdns.org/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "whipcream"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '//alephfiles.duckdns.org/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid == null || videoid === 'undefined'){
