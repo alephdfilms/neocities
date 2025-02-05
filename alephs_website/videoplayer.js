@@ -50,15 +50,15 @@ controller.innerHTML = "";
 }
 
 if (videoid === "dyinglike"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../archive/webfiles/animationarchive/Dying_Be_Like.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "theyheightenedtheharp"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../archive/webfiles/animationarchive/flutedanceanim.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid === "whipcream"){
-embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../webfiles/archive/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
+embedvideo.innerHTML = '<video preload="auto" width="100%" height="100%" id="videotag"> <source src="' + window.location.protocol + '../../archive/webfiles/animationarchive/Whipped%20Cream.mp4" type="video/mp4">Your browser does not support the HTML5 video tag. If you are using Internet Explorer 6, then upgrade to Internet Explorer 9 now.</video>';
 }
 
 if (videoid == null || videoid === 'undefined'){
